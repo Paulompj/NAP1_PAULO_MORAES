@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Texto ao Lado da Imagem</title>
+    <style>
+        /* Estilo para o container da imagem e do texto */
+        .image-container {
+            display: flex;
+            align-items: center; /* Alinha os itens verticalmente */
+        }
+
+        /* Estilo para a imagem */
+        .profile-image {
+            width: 100px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+            border-radius: 50%; /* Torna a imagem redonda */
+            margin-right: 10px; /* Espaço entre a imagem e o texto */
+        }
+    </style>
+</head>
+<body>
+    <figure class="image-container">
+        <img class="profile-image" src="Imagens/minha foto.jpg" alt="Imagem de Perfil">
+        <figcaption>
+            <p>Paulo Morais Pessoa Jardim</p>
+        </figcaption>
+    </figure>
+</body>
+</html>
